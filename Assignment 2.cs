@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_2
 {
-    
+
     //Assignment 2
     //Author: Samuel A.M. Foley
     class Program
@@ -25,7 +25,7 @@ namespace Assignment_2
             // Display all passwords that say hello.
             var exercise_1 = users.Where(x => x.Password.Contains("hello"));
 
-            foreach (Models.User passes  in exercise_1)
+            foreach (Models.User passes in exercise_1)
             {
                 Console.WriteLine("User: {0} Password: {1}", passes.Name, passes.Password);
             }
